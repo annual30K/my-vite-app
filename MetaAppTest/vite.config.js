@@ -9,7 +9,7 @@ export default defineConfig({
       targets: ['defaults', 'not IE 11'], // 支持主流浏览器
     }),
   ],
-  base: '/',
+  base: '/my-vite-app/MetaAppTest/', // 设置基础路径
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
